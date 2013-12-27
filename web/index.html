@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Allen Li">
+    <!-- let's wait until I have an actual icon...
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    -->
+
+    <title>Allen Li</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="allen.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" id="nav-allen" href="#">Allen Li</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li id="nav-about"><a href="#">About Me</a></li>
+            <li id="nav-code"><a href="#">Code</a></li>
+            <li id="nav-design"><a href="#design">Design</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Related Links <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">Organizations I'm Involved With</li>
+                <li><a href="http://pioneers.berkeley.edu">Pioneers in Engineering</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Website Profiles</li>
+                <li><a href="http://github.com/awli">GitHub</a></li>
+                <li><a href="http://linkedin.com/in/allenwli">LinkedIn</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li id="nav-settings"><a href="mailto:allen@allen.li">Contact Me</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>Welcome to my website! </h1>
+        <p>It's still under construction, really! At least this version looks prettier than my 
+        <a href="nineties/index.html">old</a> website. 
+        <p>
+          <a class="btn btn-lg btn-primary" href='allen_li_resume.pdf' role="button">Resume &raquo;</a>
+          <a class="btn btn-lg btn-primary" href='http://github.com/awli' role="button">GitHub &raquo;</a>
+          <a class="btn btn-lg btn-primary" href='http://linkedin.com/in/allenwli' role="button">LinkedIn &raquo;</a>
+        </p>
+      </div>
+    </div>
+
+    <script type="application/dart" src="allen.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- Oh no Google Analytics! -->
+    <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-46113915-1', 'allen.li');
+              ga('require', 'linkid', 'linkid.js');
+              ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>

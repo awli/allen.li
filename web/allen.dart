@@ -1,7 +1,7 @@
 import 'dart:html';
 
 void main() {
-  querySelector("#nav-home").attributes['class'] = 'active';
+  querySelector("#nav-about").attributes['class'] = 'active';
   querySelector("#nav-settings").onClick.listen(toggleSettingsDisplay);
 }
 
