@@ -1,11 +1,56 @@
-// Don't commit the following files and directories created by pub and dart2js
-packages/
-*.js_
-*.js.deps
-*.js.map
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
 
-// Include when developing application packages
-pubspec.lock
+# C extensions
+*.so
 
-// Avoid committing generated JavaScript files
-*.dart.js
+# Distribution / packaging
+.Python
+env/
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Rope
+.ropeproject
+
+# Django stuff:
+*.log
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+# Virtualenv
+venv

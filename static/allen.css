@@ -1,6 +1,5 @@
 
 body {
-  font-family: 'Open Sans', sans-serif;
   max-height: 1080px; /* so that we don't build things beyond this size */
   margin-top: 70px;
 }
