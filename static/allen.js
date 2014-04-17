@@ -7,16 +7,19 @@ function registerAnalytics() {
 
 	ga('create', 'UA-46113915-1', 'allen.li');
 	ga('require', 'linkid', 'linkid.js');
+	ga('require', 'displayfeatures');
 	ga('send', 'pageview');
 	// End Google's Stuff
 
 
 	// Register event handlers
 	$('.btn').click( function() {
+		console.log("button click event found");
 		id = $(this).attr('id');
 		ga('send', 'event', 'button', 'click', id);
 	});
 	$('.tc').click( function() {
+		console.log("button click event found");
 		id = $(this).attr('id');
 		ga('send', 'event', 'button', 'click', id);
 	});
