@@ -54,3 +54,6 @@ docs/_build/
 
 # Virtualenv
 venv
+
+# Newrelic config
+newrelic.ini

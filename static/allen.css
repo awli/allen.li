@@ -1,11 +1,6 @@
 
 body {
-  max-height: 1080px; /* so that we don't build things beyond this size */
   margin-top: 70px;
-}
-
-.container {
-  width: 100%;
 }
 
 /* Coloring schemes that we'll deal with later. 
