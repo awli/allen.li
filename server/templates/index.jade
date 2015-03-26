@@ -2,13 +2,30 @@
 extends ./layouts/base
 
 block content
-  .container
-    .yeogurt-info
-      h1 Welcome to Yeogurt!
-      p Take a look at the <a href="https://github.com/larsonjj/generator-yeogurt#yeogurt-generator---">documentation</a> and start mixing up something awesome.
-      p
-        img.logo(src="/images/yeogurt-swirl.png", width="75px")
-      p.links
-        a(href="/docs/styleguide/index.html") Styleguide
-        a(href="/docs/api/index.html") API
-  code.version v0.14.3
+  .site-wrapper
+    .site-wrapper-inner
+        .cover-container
+          .masthead.clearfix
+            .inner
+              h3.masthead-brand Cover
+              nav
+                ul.nav.masthead-nav
+                  li.active
+                    a(href='#') Home
+                  li
+                    a(href='#') Features
+                  li
+                    a(href='#') Contact
+          .inner.cover
+            h1.cover-heading Cover your page.
+            p.lead Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.
+            p.lead
+              a.btn.btn-lg.btn-default(href='#') Learn more
+          .mastfoot
+            .inner
+              p
+                | Cover template for
+                a(href='http://getbootstrap.com') Bootstrap
+                | , by
+                a(href='https://twitter.com/mdo') @mdo
+                | .
