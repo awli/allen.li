@@ -1,11 +1,11 @@
-// `grunt heroku`
-// deploys on heroku.
+// `grunt heroku:production`
+// Deploys on heroku.
 
 'use strict';
 
 var taskConfig = function(grunt) {
-  grunt.registerTask('build', 'Build a production ready version of your site.', [
-    'build'
+  grunt.registerTask('heroku:production', 'Deploy on heroku.', [
+    'build',
     'serve:dist'
   ]);
 };
