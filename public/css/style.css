@@ -19,6 +19,10 @@ a:hover {
   border: 1px solid #fff;
 }
 
+.btn-lg {
+  margin: 5px;
+}
+
 
 /*
  * Base structure
