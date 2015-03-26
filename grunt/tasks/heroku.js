@@ -4,7 +4,7 @@
 'use strict';
 
 var taskConfig = function(grunt) {
-  grunt.registerTask('heroku:production', 'Deploy on heroku.', [
+  grunt.registerTask('heroku:', 'Deploy on heroku.', [
     'build',
     'serve:dist'
   ]);
